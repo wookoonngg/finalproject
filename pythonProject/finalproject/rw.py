@@ -141,9 +141,6 @@ if __name__ == "__main__":
     # 둘다 셋셋 012
     for i in range(3):
         threads_rp.append(threading.Thread(target=writer_rp, args=(i,)))
-
-
-    for i in range(100):
         threads_rp.append(threading.Thread(target=reader_rp, args=(i,)))
 
     for t in threads_rp: t.start()
