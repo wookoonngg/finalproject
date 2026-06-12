@@ -34,6 +34,7 @@
     "Python.dpp.executor": "Run",
     "Python.pcp.executor": "Run",
     "Python.rw.executor": "Run",
+    "Python.test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main"
   }
